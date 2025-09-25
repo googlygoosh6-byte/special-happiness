@@ -1,5 +1,6 @@
+// Precompiler code
 #include <iostream>
-using namespace std;
+using namespace std; // Standard namespace includes all the standard libraries such as stdio.h 
 
 void _if();
 void _login();
