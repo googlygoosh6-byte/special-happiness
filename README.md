@@ -5,8 +5,11 @@ ICBT_Codespace (4,2,3) (x(from left),y (from front),lab)
 ``` git clone https://github.com/googlygoosh6-byte/special-happiness.git ```
 
 # Repitition
-Run Using ``` ./repitition [mode] [value] ```
-For Non commnd line arguments: ``` ./repitition_nc ```
+Run using ``` ./repitition [mode] [value] ```
+For no commnd line arguments(menu based): ``` ./repitition_nc ```
+
+# Conditionals
+Run using ``` ./conditionals ```
 
 # Compile
 Install make
