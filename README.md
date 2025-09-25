@@ -1,5 +1,6 @@
 # ICBT Codespace
 ICBT_Codespace (4,2,3) (x(from left),y (from front),lab)
+All codesample inputs are provided as commandline arguments 
 
 # Clone this Repository
 ``` git clone https://github.com/googlygoosh6-byte/special-happiness.git ```
