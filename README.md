@@ -5,7 +5,7 @@ ICBT_Codespace (4,2,3) (x(from left),y (from front),lab)
 ``` git clone https://github.com/googlygoosh6-byte/special-happiness.git ```
 
 # Repitition
-Run using ``` ./repitition [mode] [value] ```
+Run using ``` ./repitition [mode] [value] ``` <br>
 For no commnd line arguments(menu based): ``` ./repitition_nc ```
 
 # Conditionals
@@ -18,5 +18,5 @@ Install make
 ## macOS (brew)
 ``` brew install make ```
 ## Linux
-Debian based: ``` sudo apt install build-essential ```
+Debian based: ``` sudo apt install build-essential ``` <br>
 Arch based: ``` sudo pacman -S base-devel ```
