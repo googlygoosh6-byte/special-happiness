@@ -17,15 +17,15 @@ int main(int argc, char **argv)
 
 	switch (*argv[1])
 	{
-		case '1':
+		case '1':	// Mode 1 for while loop
 			_while();
 			system("sleep 1");
 			break;
-		case '2':
+		case '2': // Mode 2 for do while loop
 			_dowhile(*argv[2]-48);
 			system("sleep 1");
 			break;
-		case '3':
+		case '3': // Mode 3 for while loop
 			_for(*argv[2]-48);
 			system("sleep 1");
 		default:
