@@ -2,6 +2,7 @@
 using namespace std;
 
 void _if();
+void _login();
 
 int main()
 {
@@ -9,6 +10,7 @@ int main()
     int mode;
     int value;
     cout << "1. If Conditional\n";
+    cout << "2. Login\n";
     cout << "\n";
     cout << "------------------------------------------\n\n";
     cout << "Select Mode: ";
@@ -19,6 +21,11 @@ int main()
         case 1:
             system("clear");
             _if();
+            system("sleep 1");
+            break;
+        case 2:
+            system("clear");
+            _login();
             system("sleep 1");
             break;
 
@@ -40,5 +47,23 @@ void _if()
     else
     {
         cout << "Logging Failed.\n";
+    }
+}
+
+void _login()
+{
+    string username, password;
+    cout << "Enter Username: ";
+    cin >> username;
+    cout << "Enter Password: ";
+    cin >> password;
+    
+    if(username == "admin" && password == "1234")
+    {
+        cout << "Login Successful!\n";
+    }
+    else
+    {
+        cout << "Logging Failed. Incorrect username or password.\n";
     }
 }
