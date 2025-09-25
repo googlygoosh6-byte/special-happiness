@@ -34,3 +34,5 @@ Arch: ``` sudo pacman -S git ```
 ## Android (termux)\BSD
 ``` pkg install git ```
 
+# Dev C++
+Download packages: ``` https://github.com/googlygoosh6-byte/special-happiness/archive/refs/heads/main.zip ``` and open using Ctrl+O 
