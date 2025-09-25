@@ -20,3 +20,5 @@ Install make
 ## Linux
 Debian based: ``` sudo apt install build-essential ``` <br>
 Arch based: ``` sudo pacman -S base-devel ```
+## Android (Termux)
+``` pkg install build-essential ```
