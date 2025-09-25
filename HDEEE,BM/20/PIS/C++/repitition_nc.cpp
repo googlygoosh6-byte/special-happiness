@@ -13,6 +13,8 @@ int main()
     cout << "1. While Loop\n";
     cout << "2. Do While Loop\n";
     cout << "3. For Loop\n";
+    cout << "\n";
+    cout << "------------------------------------------\n\n";
     cout << "Select Mode: ";
     cin >> mode;
     
