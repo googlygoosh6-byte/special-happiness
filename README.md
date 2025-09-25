@@ -20,5 +20,17 @@ Install make
 ## Linux
 Debian based: ``` sudo apt install build-essential ``` <br>
 Arch based: ``` sudo pacman -S base-devel ```
-## Android (Termux)
+## Android (Termux)\BSD
 ``` pkg install build-essential ```
+
+# Install git
+## Windows
+``` wget https://git-scm.com/downloads/win ``` and run the executable
+## Linux
+Debian: ``` sudo apt install git ``` <br>
+Arch: ``` sudo pacman -S git ```
+## macOS (brew)
+``` brew install git ```
+## Android (termux)\BSD
+``` pkg install git ```
+
